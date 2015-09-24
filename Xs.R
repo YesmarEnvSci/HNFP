@@ -1,4 +1,4 @@
-####Bern Romey, Xs merge for HNFP
+####Bern Romey, merge DataPlus dbf files and save as CSV.
 
 require(foreign)# Install foreign package
 hdr <-read.dbf("R39SiteInfo.dbf", as.is = FALSE)
