@@ -11,5 +11,5 @@
 
 ----------
 
-**Helful setup instructions for group project using GitHub and RStudio** can be found at this [link](https://github.com/PSU-Env/GitHub-for-RStudio) and also has helpful screen-shot images.
+**Helful setup instructions for group project using GitHub and RStudio** can be found at this [link](https://github.com/PSU-Env/GitHub-for-RStudio), and also includes helpful screen-shot images.
 
