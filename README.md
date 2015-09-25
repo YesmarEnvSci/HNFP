@@ -11,5 +11,5 @@
 
 ----------
 
-**[Setup Instructions](http://psu-envstats.github.io/GitHub-for-RStudio) for Group Project using GitHub and RStudio**, or this [link](https://github.com/PSU-Env/GitHub-for-RStudio) that also has helpful images.
+**Helful setup instructions for group project using GitHub and RStudio** can be found at this [link](https://github.com/PSU-Env/GitHub-for-RStudio) and also has helpful screen-shot images.
 
