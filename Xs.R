@@ -8,9 +8,10 @@ morph <- read.dbf("R39Morph.dbf", as.is = FALSE)
 dta <- merge(hdr, morph) #Merge hdr and morph dbf files based on common key
 str(dta) # check structure of data
 
-write.csv(dta,file = "R39Xs.csv") # Writes file with merged data to working directory
-
-wp <- filter(dta, ILAT > 0 )
+dta2 <- select(dta, -KEY_A,-KEY_AA)
+rm(dta)
+write.csv(dta2,file = "R39Xs.csv") # Writes file with merged data to working directory
+wp <- filter(dta2, ILAT > 0 )
 write.csv(wp,file = "IP39XsWP.CSV") # Writes CSV file with waypoints only to working directory
 
 
